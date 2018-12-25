@@ -1,0 +1,12 @@
+<RootW>
+    BoxLayout:
+        orientation: 'vertical'
+        Button:
+            id: bt1
+            text: 'Button1'
+            on_release: root.func_button(tx2,bt1.text)
+        TextInput:
+            id: tx1
+            on_text: root.func_text_input(tx2,tx1.text)
+        TextInput:
+            id: tx2
